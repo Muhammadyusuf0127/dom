@@ -1,0 +1,256 @@
+@import "./fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Rubik:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rubik";
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    background: #3E8989;
+}
+.nav__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+.nav__link{
+    text-decoration: none;
+    color: #FFF;
+font-family: "Rubik";
+font-size: 16px;
+font-weight: 500;
+padding: 5px;
+}
+.nav__link:hover{
+    border-bottom: 3px solid #FFF;
+    border-radius: 3px;
+}
+.nav__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__input{
+    border-radius: 20px 0px 0px 20px;
+background: #FFF;
+padding: 8px  20px;
+outline: none;
+border: none;
+font-size: 16px;
+}
+.nav__btn{
+    padding: 9px 14px;
+    color: #FFF;
+font-family:"Rubik";
+font-size: 14px;
+font-weight: 400;
+border-radius: 0px 20px 20px 0px;
+background: #295E5E;
+outline: none;
+border: none;
+}
+.intro{
+    background-image: url(../images/tabiat.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+}
+.intro__title{
+    color: #FFF;
+font-family: "Rubik";
+font-size: 80px;
+font-weight: 600;
+}
+.intro__text{
+    color: #FFF;
+font-family: "Rubik";
+font-size: 40px;
+font-weight: 500;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.intro__link{
+    text-decoration: none;
+    color: #FFF;
+font-family:"Inter";
+font-size: 18px;
+font-weight: 600;
+transition: .3s;
+border-radius: 30px;
+background-color:  #B4436C; 
+ padding: 14px 70px;
+}
+.intro__link:hover{
+    background:#fff;
+    color:  #B4436C;
+}
+.main__link{
+    display: flex;
+    justify-content: center;
+    color: #3E8989;
+font-family: "Inter";
+font-size: 40px;
+font-weight: 600;
+align-items: center;
+margin-top: 80px;
+margin-bottom: 50px;
+}
+.main__box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.main__itam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__text{
+    color: #000;
+    font-family: "rubik" ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.main__text2{
+    color: #000;
+font-family: "Rubik";
+font-size: 18px;
+font-weight: 400;
+}
+.footer__title{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 90px;
+    color: #3E8989;
+font-family: "Inter";
+font-size: 40px;
+font-weight: 600;
+}
+.footer__box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.footer__text{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 34px;
+    color: #000;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 600;
+transition: .3s
+}
+.footer__text:hover{
+    color: #B4436C;
+}
+.work__box{
+    background: #FFF;
+    margin-top: 50px;
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.work__2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.work__title{
+    color: #3E8989;
+font-family:"inter";
+font-size: 40px;
+font-weight: 600;
+margin-top: 100px;
+}
+.work__text{
+    color: #000;
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+width: 555px;
+}
+.work__tel{
+    color: #000;
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 20px;
+text-decoration: none;
+}
+.work__link{
+    color: #000;
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+text-decoration: none;
+}
+.footer__box2{
+    background: #3E8989;
+    padding: 20px;
+}
+.footer__list2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+.footer__link2{
+    color: #FFF;
+font-family: "Rubik";
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+}
+.footer__itam2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 50px; 
+}
+.footer__text2{
+    color: #FFF;
+font-family: "Rubik";
+font-size: 14px;
+font-weight: 400;
+}
+.footer__data2{
+    color: #FFF;
+font-family:" Rubik";
+font-size: 14px;
+font-weight: 400;
+text-decoration: none;
+}
+.menu ,
+.close{
+    width: 30px;
+}
+label{
+    display: none;
+}
+#check{
+    display: none;
+}
